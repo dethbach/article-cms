@@ -1,0 +1,6 @@
+@extends('errors.layout')
+@section('tone', 'amber')
+@section('icon', 'bi-speedometer2')
+@section('code', '429')
+@section('heading', 'Too many requests')
+@section('message', 'You are going a little too fast. Please wait a minute and try again.')
